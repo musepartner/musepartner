@@ -1,5 +1,5 @@
 :root {
-  --bg: #f7f8fa;
+  --bg: #f6f4f1;
   --surface: #ffffff;
   --surface-muted: #eef2f4;
   --text: #1f2933;
@@ -88,7 +88,7 @@ p {
   top: 0;
   z-index: 50;
   border-bottom: 1px solid rgba(221, 216, 206, 0.86);
-  background: rgba(247, 248, 250, 0.94);
+  background: rgba(246, 244, 241, 0.94);
   backdrop-filter: blur(12px);
 }
 
