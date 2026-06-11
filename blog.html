@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog | Muse Partner</title>
+  <meta name="description" content="Essays and research notes from Muse Partner on AI." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body data-page="blog">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div data-component="site-header"></div>
+
+  <main id="main">
+    <section class="page-header">
+      <div class="container narrow">
+        <p class="eyebrow">Blog</p>
+        <h1>Essays and research notes on AI.</h1>
+        <p>
+          Public writing from Muse Partner, organized for readers who want direct notes, durable references, and a clean archive.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container narrow">
+        <div class="category-filter" aria-label="Blog categories">
+          <button class="filter-button is-active" type="button" data-category-filter="all">All</button>
+          <button class="filter-button" type="button" data-category-filter="AI">AI</button>
+          <button class="filter-button" type="button" data-category-filter="Research Notes">Research Notes</button>
+        </div>
+        <div class="post-list" data-posts></div>
+      </div>
+    </section>
+  </main>
+
+  <div data-component="site-footer"></div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -3,282 +3,77 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Muse Partner – Simple SaaS for Teams</title>
-  <meta name="description" content="Muse Partner is a lightweight SaaS platform to help teams organize projects, collaborate, and stay on top of their work." />
+  <title>Muse Partner</title>
+  <meta name="description" content="Muse Partner is the public research and software site of Peter, collecting essays, research notes, and tools related to AI." />
   <link rel="stylesheet" href="styles.css" />
 </head>
-<body>
-  <header class="site-header">
-    <div class="container header-inner">
-      <a href="#top" class="logo">
-        <span class="logo-mark">MP</span>
-        <span class="logo-text">Muse Partner</span>
-      </a>
-      <nav class="nav" id="main-nav">
-        <a href="#features">Features</a>
-        <a href="#how-it-works">How it works</a>
-        <a href="#pricing">Pricing</a>
-        <a href="#faq">FAQ</a>
-        <a href="#contact" class="nav-cta">Get started</a>
-      </nav>
-      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
-        <span></span>
-        <span></span>
-      </button>
-    </div>
-  </header>
+<body data-page="home">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div data-component="site-header"></div>
 
-  <main id="top">
+  <main id="main">
     <section class="hero">
-      <div class="container hero-inner">
+      <div class="container hero-grid">
         <div class="hero-copy">
-          <h1>Partner with a simple SaaS that just works.</h1>
-          <p>
-            Muse Partner gives you the essential tools to run your business—
-            projects, clients, tasks, and simple reporting—in one clean, fast interface.
+          <p class="eyebrow">Public research and software</p>
+          <h1>Muse Partner</h1>
+          <p class="hero-subtitle">Research, essays, and tools on AI.</p>
+          <p class="hero-description">
+            Muse Partner is the public research and software site of Peter, an EECS PhD student at UC Berkeley and a researcher at QuantumByte.ai.
           </p>
-          <div class="hero-actions">
-            <a href="#contact" class="btn primary">Request early access</a>
-            <a href="#features" class="btn ghost">View features</a>
-          </div>
-          <p class="hero-footnote">No credit card required · Cancel anytime</p>
-        </div>
-        <div class="hero-card">
-          <div class="hero-card-header">
-            <h2>Today&apos;s overview</h2>
-            <span class="pill">Muse Partner</span>
-          </div>
-          <ul class="hero-stats">
-            <li>
-              <span class="stat-label">Active projects</span>
-              <span class="stat-value">12</span>
-            </li>
-            <li>
-              <span class="stat-label">Tasks due today</span>
-              <span class="stat-value">19</span>
-            </li>
-            <li>
-              <span class="stat-label">Response time</span>
-              <span class="stat-value good">1h 23m</span>
-            </li>
-          </ul>
-          <div class="hero-timeline">
-            <p class="timeline-title">Next up</p>
-            <div class="timeline-item">
-              <span class="dot"></span>
-              <div>
-                <p class="timeline-label">Client kickoff · 10:00 AM</p>
-                <p class="timeline-meta">Share outline & assign owners</p>
-              </div>
-            </div>
-            <div class="timeline-item">
-              <span class="dot"></span>
-              <div>
-                <p class="timeline-label">Content review · 1:30 PM</p>
-                <p class="timeline-meta">Marketing site v2</p>
-              </div>
-            </div>
+          <p class="hero-description">
+            The site collects essays, research notes, and tools related to AI.
+          </p>
+          <div class="button-row" aria-label="Primary links">
+            <a class="button button-primary" href="blog.html">Read the Blog</a>
+            <a class="button button-secondary" href="research.html">Research</a>
+            <a class="button button-secondary" href="https://scholar.google.com/citations?hl=en&amp;user=j9ICsOEAAAAJ" rel="noopener noreferrer">Google Scholar</a>
           </div>
         </div>
+        <aside class="signal-panel" aria-label="Muse Partner focus areas">
+          <div class="signal-item">
+            <span>01</span>
+            <p>Essays on AI systems, interfaces, and research practice.</p>
+          </div>
+          <div class="signal-item">
+            <span>02</span>
+            <p>Research notes written for public reference and reuse.</p>
+          </div>
+          <div class="signal-item">
+            <span>03</span>
+            <p>Small tools and experiments related to applied AI.</p>
+          </div>
+        </aside>
       </div>
     </section>
 
-    <section class="section section-muted" id="how-it-works">
-      <div class="container">
-        <h2>How Muse Partner fits into your workflow</h2>
-        <p class="section-lead">
-          A straightforward SaaS layer that sits between your ideas and the tools you already use.
-        </p>
-        <div class="grid three">
-          <div class="card">
-            <h3>1. Centralize</h3>
-            <p>Create spaces for each client, project, or internal team. Keep notes, files, and tasks in one place.</p>
-          </div>
-          <div class="card">
-            <h3>2. Collaborate</h3>
-            <p>Mention teammates, assign owners, and track simple status without complex configuration.</p>
-          </div>
-          <div class="card">
-            <h3>3. Measure</h3>
-            <p>Lightweight dashboards show progress, workload, and timelines at a glance.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="features">
-      <div class="container">
-        <h2>Simple features, flexible use‑cases</h2>
-        <p class="section-lead">
-          Muse Partner is intentionally minimal so it can adapt to agencies, product teams, and solo founders alike.
-        </p>
-        <div class="grid two features-grid">
-          <div class="feature-list">
-            <div class="feature-item">
-              <h3>Project & client hub</h3>
-              <p>Organize by client, product, or internal initiative with clean Kanban-style boards.</p>
-            </div>
-            <div class="feature-item">
-              <h3>Shared task lists</h3>
-              <p>Assign owners, due dates, and simple labels—no complex configuration required.</p>
-            </div>
-            <div class="feature-item">
-              <h3>Comments & mentions</h3>
-              <p>Keep discussions attached to the work instead of buried in email threads.</p>
-            </div>
-            <div class="feature-item">
-              <h3>Lightweight reporting</h3>
-              <p>See what&apos;s on track, what&apos;s blocked, and who&apos;s overloaded in a single view.</p>
-            </div>
-            <div class="feature-item">
-              <h3>Integrations‑ready</h3>
-              <p>Connect with the tools you already use via API and webhooks (coming soon).</p>
-            </div>
-          </div>
-          <div class="feature-highlight-card">
-            <p class="pill pill-soft">Use cases</p>
-            <h3>Built for teams that need clarity, not clutter.</h3>
-            <ul class="checklist">
-              <li>Client services & agencies</li>
-              <li>Product & design teams</li>
-              <li>Consultants & fractional leaders</li>
-              <li>Founders coordinating contractors</li>
-            </ul>
-            <p class="small">
-              Position Muse Partner as a neutral operations layer: not another inbox, not another spreadsheet,
-              just a shared source of truth for the work that matters.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section section-muted" id="pricing">
-      <div class="container">
-        <h2>Pricing that&apos;s easy to explain</h2>
-        <p class="section-lead">
-          Start small, invite your core team, and grow as you go. No setup fees, no long‑term contracts.
-        </p>
-        <div class="pricing-grid">
-          <div class="pricing-card">
-            <p class="pill pill-soft">Starter</p>
-            <h3>$19<span>/month</span></h3>
-            <p class="pricing-subtitle">For solo founders and very small teams.</p>
-            <ul class="checklist">
-              <li>Up to 3 team members</li>
-              <li>Unlimited projects & clients</li>
-              <li>Task boards & comments</li>
-              <li>Basic reporting</li>
-              <li>Email support</li>
-            </ul>
-          </div>
-          <div class="pricing-card highlight">
-            <p class="pill">Team</p>
-            <h3>$49<span>/month</span></h3>
-            <p class="pricing-subtitle">For growing teams who need shared structure.</p>
-            <ul class="checklist">
-              <li>Up to 15 team members</li>
-              <li>Shared workspaces & templates</li>
-              <li>Advanced filters & search</li>
-              <li>Early access to integrations</li>
-              <li>Priority support</li>
-            </ul>
-          </div>
-          <div class="pricing-card">
-            <p class="pill pill-soft">Partner</p>
-            <h3>Let&apos;s talk</h3>
-            <p class="pricing-subtitle">For larger orgs and agencies.</p>
-            <ul class="checklist">
-              <li>Custom onboarding</li>
-              <li>Role‑based access</li>
-              <li>Audit logs</li>
-              <li>Security reviews</li>
-              <li>Dedicated success contact</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="faq">
-      <div class="container">
-        <h2>Frequently asked questions</h2>
-        <div class="faq-grid">
-          <div class="faq-item">
-            <h3>What kind of SaaS is Muse Partner?</h3>
-            <p>
-              Muse Partner is intentionally generic: it&apos;s a flexible workspace for organizing clients,
-              projects, and internal work. You can position it however you like in your marketing copy.
-            </p>
-          </div>
-          <div class="faq-item">
-            <h3>Do I need to install anything?</h3>
-            <p>
-              No. Muse Partner runs in the browser. Your team can log in from any modern device with an internet connection.
-            </p>
-          </div>
-          <div class="faq-item">
-            <h3>Can I connect it to my existing tools?</h3>
-            <p>
-              Yes. Muse Partner is designed to sit alongside your existing stack. Use simple exports today,
-              and integrations/webhooks as they&apos;re released.
-            </p>
-          </div>
-          <div class="faq-item">
-            <h3>Is there a free trial?</h3>
-            <p>
-              You can start with a time‑limited trial before choosing a plan. Just mention this on your live marketing site or signup flow.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section section-accent" id="contact">
-      <div class="container contact-inner">
+    <section class="section section-border">
+      <div class="container split-section">
         <div>
-          <h2>Ready to bring Muse Partner to your team?</h2>
-          <p class="section-lead">
-            This is a static marketing page. Wire it up to your own signup form, email list, or CRM.
+          <p class="eyebrow">Scope</p>
+          <h2>A focused place for public work.</h2>
+        </div>
+        <div class="prose">
+          <p>
+            Muse Partner keeps public-facing writing, research notes, and software experiments in one calm, searchable place. The emphasis is on clarity, useful artifacts, and durable links rather than a personal diary.
           </p>
         </div>
-        <form class="contact-form" action="https://example.com/contact" method="post">
-          <div class="field">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="Alex Rivera" required />
-          </div>
-          <div class="field">
-            <label for="email">Work email</label>
-            <input type="email" id="email" name="email" placeholder="you@example.com" required />
-          </div>
-          <div class="field">
-            <label for="company">Company</label>
-            <input type="text" id="company" name="company" placeholder="Your company or team" />
-          </div>
-          <div class="field">
-            <label for="message">What are you hoping to use Muse Partner for?</label>
-            <textarea id="message" name="message" rows="3" placeholder="A sentence or two about your use‑case."></textarea>
-          </div>
-          <button type="submit" class="btn primary full">Request early access</button>
-          <p class="small muted">
-            Update the <code>action</code> attribute on this form to connect it to your own backend, form tool, or CRM.
-          </p>
-        </form>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Latest</p>
+          <h2>From the Blog</h2>
+          <a class="text-link" href="blog.html">View all posts</a>
+        </div>
+        <div class="post-grid" data-posts-preview data-limit="2"></div>
       </div>
     </section>
   </main>
 
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <p>&copy; <span id="year"></span> Muse Partner. All rights reserved.</p>
-      <div class="footer-links">
-        <a href="#">Status</a>
-        <a href="#">Privacy</a>
-        <a href="#">Terms</a>
-      </div>
-    </div>
-  </footer>
-
+  <div data-component="site-footer"></div>
   <script src="script.js"></script>
 </body>
 </html>
