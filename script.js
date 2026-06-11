@@ -5,7 +5,7 @@ const SITE_LINKS = {
 
 const BLOG_POSTS = [
   {
-    title: "Opening Notes on Muse Partner",
+    title: "Opening Notes",
     date: "2026-06-10",
     category: "AI",
     excerpt: "A short note on the site as a public home for AI essays, research notes, and software experiments."
@@ -37,9 +37,9 @@ function renderHeader() {
   header.innerHTML = `
     <header class="site-header">
       <div class="container header-inner">
-        <a class="brand" href="index.html" aria-label="Muse Partner home">
-          <span class="brand-mark" aria-hidden="true">MP</span>
-          <span class="brand-name">Muse Partner</span>
+        <a class="brand" href="index.html" aria-label="Home">
+          <span class="brand-mark" aria-hidden="true">P</span>
+          <span class="brand-name">Peter</span>
         </a>
         <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation">
           <span class="nav-toggle-lines" aria-hidden="true"></span>
@@ -63,7 +63,7 @@ function renderFooter() {
     <footer class="site-footer">
       <div class="container footer-inner">
         <div class="footer-copy">
-          <p>&copy; 2026 Muse Partner</p>
+          <p>&copy; 2026 Peter</p>
         </div>
         <div class="footer-links" aria-label="Footer links">
           <a href="${SITE_LINKS.scholar}" rel="noopener noreferrer">Google Scholar</a>
